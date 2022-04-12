@@ -1,5 +1,5 @@
 from dacite import from_dict, MissingValueError
-from flask import request, session
+from flask import request
 from flask_restful import Resource
 
 from core.cache.cache import add_model

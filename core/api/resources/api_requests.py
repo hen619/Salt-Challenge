@@ -2,10 +2,10 @@ from dacite import from_dict, MissingValueError
 from flask import request, jsonify
 from flask_restful import Resource
 
-from core.api.responses.validation_response import ValidationProcessResponse
 from core.cache.cache import get_matching_model
 from core.dataclasses.model_schema import ModelSchema
 from core.dataclasses.request_schema import RequestSchema
+from core.validation.responses.validation_response import ValidationProcessResponse
 from core.validation.validation_handler import ValidationHandler
 
 

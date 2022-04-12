@@ -1,4 +1,4 @@
-from flask import Flask, g
+from flask import Flask
 from flask_restful import Api
 
 from core.api.resources.api_requests import ApiRequests

@@ -1,7 +1,7 @@
 from typing import List
 
-from core.api.responses.validation_response import MissingRequiredParamsValidatorResponse
 from core.dataclasses.parameters import RequiredMissingParameter, Scope
+from core.validation.responses.validation_response import MissingRequiredParamsValidatorResponse
 from core.validation.validators.validator import Validator
 from core.dataclasses.model_schema import ModelSchema, ModelParamSchema
 from core.dataclasses.request_schema import RequestSchema, RequestParamSchema

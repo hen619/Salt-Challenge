@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 
-from core.api.responses.validation_response import ValidatorResponse
 from core.dataclasses.model_schema import ModelSchema
 from core.dataclasses.request_schema import RequestSchema
+from core.validation.responses.validation_response import ValidatorResponse
 
 
 class Validator(ABC):

@@ -1,6 +1,6 @@
 from typing import List
 
-from core.api.responses.validation_response import ValidatorResponse, ValidationProcessResponse
+from core.validation.responses.validation_response import ValidationProcessResponse, ValidatorResponse
 from core.validation.validators.missing_required_params_validator import MissingRequiredParamsValidator
 from core.validation.validators.type_mismatch_validator import TypeMismatchValidator
 from core.validation.validators.validator import Validator

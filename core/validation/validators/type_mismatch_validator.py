@@ -1,9 +1,9 @@
 from typing import List
 
-from core.api.responses.validation_response import TypeMismatchValidatorResponse
 from core.dataclasses.model_schema import ModelSchema, ModelParamSchema
 from core.dataclasses.parameters import TypeMismatchParameter, Scope
 from core.dataclasses.request_schema import RequestSchema, RequestParamSchema
+from core.validation.responses.validation_response import TypeMismatchValidatorResponse
 from core.validation.type_verification.factory import get_type_validators
 from core.validation.type_verification.type_verifier import TypeVerifier
 from core.validation.validators.validator import Validator
